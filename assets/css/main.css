@@ -1,6 +1,12 @@
 @charset "UTF-8";
-/* Colores de fondo */
+/* 1.- Abstracts */
 /* Tipografías */
+/* Colores */
+/* #EACB31; */
+/* Tipografías */
+/* 2.- Vendors */
+/* 3.- Base */
+/* 4.- Layout */
 .main {
   position: relative;
   top: 6rem;
@@ -8,8 +14,7 @@
 }
 
 .navbar {
-  background-color: #3C91E6;
-  /*temporal para ver donde está */
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,14 +44,51 @@
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
   text-decoration: none;
-  font-size: medium;
+  color: #A2A2A2;
   display: inline-flex;
   margin-right: 30px;
 }
-.navbar__button {
+.navbar__options:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+/* 5.- Components */
+.button {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
   margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
-}/*# sourceMappingURL=main.css.map */
+}
+.button--login {
+  background-color: #fff;
+  color: #A2A2A2;
+  border-style: solid;
+  border-color: #A2A2A2;
+}
+.button--login:hover {
+  background-color: #fff;
+  color: #454545;
+  border-style: solid;
+  border-color: #000000;
+  cursor: pointer;
+}
+.button--register {
+  background-color: #4CA866;
+  color: #fff;
+  border-style: solid;
+  border-color: #4CA866;
+}
+.button--register:hover {
+  background-color: #9DCFAB;
+  color: #454545;
+  border-style: solid;
+  border-color: #9DCFAB;
+  cursor: pointer;
+}
+
+/* 6.- Pages */
+/* 7.- Themes *//*# sourceMappingURL=main.css.map */

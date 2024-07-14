@@ -1,4 +1,12 @@
-@import 'abstract/mixins';
-
+/* 1.- Abstracts */
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+/* 2.- Vendors */
+/* 3.- Base */
+/* 4.- Layout */
 @import 'layout/main';
 @import 'layout/navbar';
+/* 5.- Components */
+@import 'components/button';
+/* 6.- Pages */
+/* 7.- Themes */

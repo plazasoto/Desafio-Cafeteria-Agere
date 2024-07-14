@@ -1,5 +1,5 @@
 .navbar{
-    background-color: $color-bluedefrance;/*temporal para ver donde está */
+    background-color: $color-white;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,14 +30,13 @@
     &__options{
         @include pt-mono;
         text-decoration: none;
-        font-size: medium;
+        color: $color-quicksilver;
         display: inline-flex;
         margin-right: 30px;
-    }
 
-    &__button{
-        @include pt-mono;
-        margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
+        &:hover{
+            color: $color-black;
+            cursor: pointer;
+        }
     }
-
 }
