@@ -1,0 +1,11 @@
+.section{
+    &__title{
+        @include pt-mono($fontsize-xxl);
+    }
+    &__paragraph{
+        @include roboto($fontsize-l);
+    }
+    &__arrow{
+        @include pt-mono($fontsize-xxxl);
+    }
+}

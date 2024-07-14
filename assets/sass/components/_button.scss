@@ -1,6 +1,7 @@
 .button{
     @include pt-mono();
-    margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
+    margin: 1.75rem 1rem;
+    padding: 0.5rem ;
 
     &--login{
         background-color: $color-white;

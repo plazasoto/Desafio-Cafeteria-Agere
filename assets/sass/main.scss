@@ -3,10 +3,15 @@
 @import 'abstracts/variables';
 /* 2.- Vendors */
 /* 3.- Base */
+@import 'base/reset';
 /* 4.- Layout */
 @import 'layout/main';
 @import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/section';
+@import 'layout/footer';
 /* 5.- Components */
 @import 'components/button';
+@import 'components/image';
 /* 6.- Pages */
 /* 7.- Themes */

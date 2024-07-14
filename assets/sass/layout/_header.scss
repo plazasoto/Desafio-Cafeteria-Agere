@@ -1,0 +1,8 @@
+.header{
+    &__title{
+        @include pt-mono($fontsize-xxxl);
+    }
+    &__paragraph{
+        @include roboto($fontsize-xl);
+    }
+}

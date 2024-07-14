@@ -6,6 +6,16 @@
 /* Tipografías */
 /* 2.- Vendors */
 /* 3.- Base */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
 /* 4.- Layout */
 .main {
   position: relative;
@@ -55,13 +65,59 @@
   cursor: pointer;
 }
 
+.header__title {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+.header__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.section__title {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.section__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+.section__arrow {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.footer__title {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.footer__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
 /* 5.- Components */
 .button {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
+  margin: 1.75rem 1rem;
+  padding: 0.5rem;
 }
 .button--login {
   background-color: #fff;
@@ -88,6 +144,12 @@
   border-style: solid;
   border-color: #9DCFAB;
   cursor: pointer;
+}
+
+.image {
+  position: relative;
+  top: 0%;
+  width: 50%;
 }
 
 /* 6.- Pages */

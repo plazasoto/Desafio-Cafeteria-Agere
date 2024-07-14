@@ -1,0 +1,8 @@
+.footer{
+    &__title{
+        @include pt-mono($fontsize-xl);
+    }
+    &__paragraph{
+        @include roboto($fontsize-m);
+    }
+}

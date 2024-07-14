@@ -1,14 +1,15 @@
 /* Tipografías */
-@mixin roboto($font_size:$fontsize-m){
-    font-family: $font-roboto;
-    font-weight: $fontweight-light;
+@mixin font-init($f-family:$font-roboto, $f-weight:$fontweight-regular, $font_size:$fontsize-m){
+    font-family: $f-family;
+    font-weight: $f-weight;
     font-style: normal;
     font-size: $font_size;
 }
 
+@mixin roboto($font_size:$fontsize-m){
+    @include font-init($font-roboto, $fontweight-light, $font_size);
+}
+
 @mixin pt-mono($font_size:$fontsize-m){
-    font-family: $font-pt_mono;
-    font-weight: $fontweight-regular;
-    font-style: normal;
-    font-size: $font_size;
+    @include font-init($font-pt_mono, $fontweight-regular, $font_size);
 }
