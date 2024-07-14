@@ -1,0 +1,12 @@
+/* Tipografías */
+@mixin roboto{
+    font-family: $font-roboto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@mixin pt-mono{
+    font-family: $font-pt_mono;
+    font-weight: 400;
+    font-style: normal;
+}

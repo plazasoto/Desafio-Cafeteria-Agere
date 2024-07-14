@@ -1,0 +1,43 @@
+.navbar{
+    background-color: $color-bluedefrance;/*temporal para ver donde está */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /*???*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__leftside{
+        float: left;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    &__rightside{
+        float: right;
+        display: flex;
+        align-items: center;
+        margin-right: 70px;
+    }
+
+    &__logo{
+        width: 40px;
+        margin: 1.75rem 60px;
+    }
+    &__options{
+        @include pt-mono;
+        text-decoration: none;
+        font-size: medium;
+        display: inline-flex;
+        margin-right: 30px;
+    }
+
+    &__button{
+        @include pt-mono;
+        margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
+    }
+
+}

@@ -1,1 +1,52 @@
-/*# sourceMappingURL=main.css.map */
+@charset "UTF-8";
+/* Colores de fondo */
+/* Tipografías */
+.main {
+  position: relative;
+  top: 6rem;
+  z-index: 0; /*???*/
+}
+
+.navbar {
+  background-color: #3C91E6;
+  /*temporal para ver donde está */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; /*???*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__leftside {
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.navbar__rightside {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+.navbar__logo {
+  width: 40px;
+  margin: 1.75rem 60px;
+}
+.navbar__options {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: medium;
+  display: inline-flex;
+  margin-right: 30px;
+}
+.navbar__button {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1.75rem 10px; /*30px ~ 1.75em ????*/
+}/*# sourceMappingURL=main.css.map */
