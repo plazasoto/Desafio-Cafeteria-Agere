@@ -13,3 +13,11 @@
 @mixin pt-mono($font_size:$fontsize-m){
     @include font-init($font-pt_mono, $fontweight-regular, $font_size);
 }
+
+
+@mixin text-box(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

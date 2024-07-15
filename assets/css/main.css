@@ -19,8 +19,8 @@
 /* 4.- Layout */
 .main {
   position: relative;
-  top: 6rem;
-  z-index: 0; /*???*/
+  top: 7rem;
+  z-index: 0;
 }
 
 .navbar {
@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1; /*???*/
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,17 +65,37 @@
   cursor: pointer;
 }
 
+.header {
+  background-color: #fff;
+  display: flex;
+}
 .header__title {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
+  padding-left: 20%;
 }
 .header__paragraph {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 30px;
+  padding-left: 20%;
+}
+.header__image {
+  top: 0%;
+  width: 69%;
+  float: left;
+}
+.header__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 0%;
+  width: 31%;
+  float: right;
 }
 
 .section__title {
