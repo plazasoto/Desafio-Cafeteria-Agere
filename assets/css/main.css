@@ -3,7 +3,7 @@
 /* Tipografías */
 /* Caja de texto */
 /* Colores */
-/* #EACB31; */
+/* #FA824C; */
 /* Tipografías */
 /* 2.- Vendors */
 /* 3.- Base */
@@ -161,7 +161,7 @@
   z-index: 1;
 }
 .section__colorbox {
-  background-color: #FA824C;
+  background-color: #EACB31;
   position: relative;
   top: 0.2rem;
   left: 315%;
