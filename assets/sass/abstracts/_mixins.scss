@@ -15,9 +15,9 @@
 }
 
 /* Caja de texto */
-@mixin text-box(){
+@mixin text-box($justify:center){
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: $justify;
     align-items: flex-start;
 }

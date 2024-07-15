@@ -1,11 +1,71 @@
 .section{
+    position: absolute;
+    top: 0%;
+    display: flex;
+
     &__title{
         @include pt-mono($fontsize-xxl);
     }
     &__paragraph{
         @include roboto($fontsize-l);
     }
+    &__box{
+        background-color: $color-white;
+        position: absolute;
+        top: 200%;
+        left: 33%;
+        width: 33%;
+        padding-left: 2%;
+        padding-right: 2%;  
+        display: flex;
+        justify-content: space-between;
+        min-width: fit-content;
+    }
+    &__subbox{
+        @include text-box(flex-start);
+        width: 7rem;
+        margin: 1rem;
+        background-color: $color-white;
+    }
+
     &__arrow{
         @include pt-mono($fontsize-xxxl);
+        color: $color-white;
+    }
+    &__arrow-box{
+        @include text-box();
+        position: absolute;
+        top: 190%;
+        left: 68%;
+        background-color: $color-flame;
+        width: 8rem;
+        min-width: fit-content;
+        height: 8rem;
+        z-index: 1;
+        align-items: center;
+    }
+    &__colorbox{
+        background-color: $color-coral;
+        position: absolute;
+        top: 200%;
+        left: 69%;
+        right: 31%;
+        width: 8rem;
+        height: 8rem;
+        z-index: 0;    
+    }
+
+    &__image-1{
+        position: relative;
+        top: 30rem;
+        left: 66%;
+        right: 33%;
+        width: 5rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+    &__image-2{
+        position: relative;
+        width: 28%;
     }
 }

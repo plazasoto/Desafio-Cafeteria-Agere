@@ -21,7 +21,7 @@
 .main {
   position: relative;
   top: 7rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 .navbar {
@@ -101,6 +101,11 @@
   float: right;
 }
 
+.section {
+  position: absolute;
+  top: 0%;
+  display: flex;
+}
 .section__title {
   font-family: "PT Mono", monospace;
   font-weight: 400;
@@ -113,11 +118,74 @@
   font-style: normal;
   font-size: 18px;
 }
+.section__box {
+  background-color: #fff;
+  position: absolute;
+  top: 200%;
+  left: 33%;
+  width: 33%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.section__subbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 7rem;
+  margin: 1rem;
+  background-color: #fff;
+}
 .section__arrow {
   font-family: "PT Mono", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
+  color: #fff;
+}
+.section__arrow-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: 190%;
+  left: 68%;
+  background-color: #E4572E;
+  width: 8rem;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  height: 8rem;
+  z-index: 1;
+  align-items: center;
+}
+.section__colorbox {
+  background-color: #FA824C;
+  position: absolute;
+  top: 200%;
+  left: 69%;
+  right: 31%;
+  width: 8rem;
+  height: 8rem;
+  z-index: 0;
+}
+.section__image-1 {
+  position: relative;
+  top: 30rem;
+  left: 66%;
+  right: 33%;
+  width: 5rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section__image-2 {
+  position: relative;
+  width: 28%;
 }
 
 .footer {
@@ -197,12 +265,6 @@
   border-style: solid;
   border-color: #9DCFAB;
   cursor: pointer;
-}
-
-.image {
-  position: relative;
-  top: 0%;
-  width: 50%;
 }
 
 /* 6.- Pages */
