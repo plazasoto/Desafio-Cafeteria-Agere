@@ -1,6 +1,6 @@
 .section{
     position: absolute;
-    top: 0%;
+    top: 50%;
     display: flex;
 
     &__title{
@@ -11,20 +11,21 @@
     }
     &__box{
         background-color: $color-white;
-        position: absolute;
-        top: 200%;
-        left: 33%;
-        width: 33%;
-        padding-left: 2%;
-        padding-right: 2%;  
+        position: relative;
+        left: 80%;
+        
+        width: 85%;
+        //min-width: fit-content;
+        padding: 0% 2%;
         display: flex;
         justify-content: space-between;
-        min-width: fit-content;
+        float: left;
     }
     &__subbox{
         @include text-box(flex-start);
-        width: 7rem;
-        margin: 1rem;
+        width: 30%;
+        margin: 2%;
+        
         background-color: $color-white;
     }
 
@@ -34,38 +35,47 @@
     }
     &__arrow-box{
         @include text-box();
-        position: absolute;
-        top: 190%;
-        left: 68%;
+        
+        position: relative;
+        top: -0.8rem;
+        left: 360%;
+        
         background-color: $color-flame;
         width: 8rem;
         min-width: fit-content;
         height: 8rem;
-        z-index: 1;
         align-items: center;
+
+        z-index: 1;
     }
+
     &__colorbox{
         background-color: $color-coral;
-        position: absolute;
-        top: 200%;
-        left: 69%;
-        right: 31%;
+        
+        position: relative;
+        top: 0.2rem;
+        left: 315%;
+
         width: 8rem;
         height: 8rem;
-        z-index: 0;    
+
+        z-index: 0;
     }
 
     &__image-1{
         position: relative;
-        top: 30rem;
-        left: 66%;
-        right: 33%;
-        width: 5rem;
+        top: 8rem;
+        left: 1050%;
+
+        width: 5.5rem;
         height: 10rem;
         object-fit: cover;
     }
     &__image-2{
         position: relative;
-        width: 28%;
+        top: 11.1rem;
+        left: 45%;
+
+        width: 32%;
     }
 }
