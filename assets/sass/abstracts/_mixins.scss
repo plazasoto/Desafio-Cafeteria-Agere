@@ -14,7 +14,7 @@
     @include font-init($font-pt_mono, $fontweight-regular, $font_size);
 }
 
-
+/* Caja de texto */
 @mixin text-box(){
     display: flex;
     flex-direction: column;

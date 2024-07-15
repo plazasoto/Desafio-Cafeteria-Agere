@@ -4,10 +4,12 @@
     &__title{
         @include pt-mono($fontsize-xxxl);
         padding-left: 20%;
+        padding-right: 20%;
     }
     &__paragraph{
         @include roboto($fontsize-xl);
         padding-left: 20%;
+        padding-right: 20%;
     }
 
     &__image{
